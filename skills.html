@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Idiqlat:wght@200;300;400&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>About Me</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg">
+        <div class="container">
+
+        <a class="navbar-brand" href="index.html">
+            <img src="ziza.png" alt="ziza">
+        </a>
+
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About Me</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="skills.html">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+        </header>
+
+        <main class="skillsm">
+            <div class="title">
+                <h1>Skills & Interests</h1>
+                <h3>Things I am capable of doing</h3>
+            </div>
+            <section class="skgrid">
+
+                <div class="skcards" onclick="toggleCard(this)">
+                    <img src="rubiks.png" alt="Rubik's">
+                    <h2>Rubik's Cube</h2>
+                    <p>Problem Solving</p>
+                    <div class="cardinf">
+                        <p>I'm capable of solving a 3x3 Rubik's Cube in less than 35 seconds
+                        and a 2x2 in less than 10 seconds. I participated in 2
+                        competitions . Here's My WCA ID:2024EIDZ01.</p>
+                    </div>
+                </div>
+
+                <div class= "skcards"  onclick="toggleCard(this)">
+                    <img src="sciml.png" alt="science">
+                    <h2>Science & Research</h2>
+                    <p>MLS . Genomic .AutoImuune</p>
+
+                    <div class="cardinf">
+                        <p>My academic interests include Medical Laboratory Science,
+                            genomics, bioinformatics, and autoimmune diseases.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="skcards"  onclick="toggleCard(this)">
+                     <img src="cdes.png" alt="science">
+                    <h2>Creative Design</h2>
+                    <p>Design . Illustration . Editing</p>
+
+                    <div class="cardinf">
+                        <p>I enjoy creating digital designs, illustrations,
+                            and editing visual content
+                        </p>
+                        </div>
+                </div>
+
+
+            </section>
+
+
+        </main>
+
+        <script>
+            function toggleCard(card){
+                card.classList.toggle("expanded");
+            }
+        </script>
+
+        <footer>
+            <div class="footers">
+                <div class="flinks">
+                    <a href= "https://bh.linkedin.com/in/zahraa-eid-75a112407"
+                    target= "_blank">
+                    <i class ="bi bi-linkedin"></i>
+                </a>
+
+                <a href="mailto:zahraaeid6@hotmail.com">
+                    <i class=" bi bi-envelope-fill"></i>
+                </a>
+                </div>
+                <p>© 2026 Zahraa</p>
+            </div>
+        </footer>
+    </body>
